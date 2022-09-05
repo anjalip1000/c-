@@ -1,0 +1,17 @@
+// Online C++ compiler to run C++ program online
+
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int ma = INT_MAX;
+    float mb = FLT_MAX;
+    double mc = DBL_MAX;
+    long double md = LONG_LONG_MAX;
+    cout << ma << "\n";
+    cout << mb << "\n" ;
+    cout << mc << "\n";
+    cout << md;
+    
+    return 0;
+}

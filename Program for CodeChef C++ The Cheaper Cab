@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T,X1,Y1;
+	std::cin >> T;
+	while(T--)
+	{
+	
+cin >> X1 >> Y1  ;
+    if(X1<Y1)
+    {
+        cout << "FIRST" << "\n";
+    }
+    
+else if(X1 == Y1)
+{
+    cout << "ANY" << "\n";
+}
+
+
+else{
+    cout << "SECOND" << "\n";
+    
+}
+}
+	return 0;
+}

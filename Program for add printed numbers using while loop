@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+#include <bits/stdc++.h>
+int main() {
+int n,sum=0,last;
+std::cin >> n;
+while(n>0)
+{
+    int last=n%10;
+    sum=sum+last;
+    n=n/10;
+    
+}
+std::cout << sum << std::endl;
+
+	return 0;
+}

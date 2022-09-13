@@ -1,0 +1,17 @@
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int t ;
+cin >> t;
+cin.ignore();
+t++;
+while(t--)
+{
+    string s;
+    getline(cin, s);
+    std::cout << s << std::endl;
+    return 0;
+}
+}

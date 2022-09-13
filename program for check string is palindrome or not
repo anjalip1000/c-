@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   string a;
+   string str_rev;
+   int i;
+   cin >> a;
+   for(i=a.size()-1;i>=0;i--)
+   {
+       str_rev=str_rev+a[i];
+   }
+   std::cout << str_rev << std::endl;
+   cout << "\n";
+   if(a == str_rev)
+   {
+       cout << " SO YOU ENTERED THIS STRING" << "" << a <<  "\n" <<"IT IS  A PALINDROME STRING";
+   }
+   else
+   {
+       cout << "SO YOU ENTERED THIS STRING AND IT IS  NOT A PALINDROME STRING ";
+   }
+    return 0;
+    
+    
+    
+    
+}

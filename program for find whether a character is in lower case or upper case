@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+      char ch;
+      std::cin >> ch;
+      if(ch>91){
+             std::cout << "THIS CHARACTER IS IN LOWER CASE" << std::endl;
+      }
+      else if(ch<122)
+      {
+             cout << "THIS IS IN UPPER CASE" << "\n";
+      }
+      else{
+             "THIS IS NUMERIC VALUE";
+      }
+         return 0; 
+}

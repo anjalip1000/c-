@@ -1,0 +1,19 @@
+#include <iostream>
+#include<math.h>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int digit;
+	std::cin >> digit;
+	int ans=0;
+	int i=0;
+	while(digit!=0){
+	       int bit = digit & 1;
+	       ans=(bit*pow(10,i))+ans;
+	       digit=digit>>1;
+	       i++;
+	}
+	std::cout << "answer will be" << " "<< ans << std::endl;
+	return 0;
+}
